@@ -17,7 +17,6 @@ expressions are substituted for parameters until it obtained an
 expression involving only primitive operators:
 
 (test 0 (p)) ->
-(if (= x 0) 0 y)) ->
 (if (= 0 0) 0 (p)) ->
 0
 
