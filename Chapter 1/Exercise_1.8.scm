@@ -3,6 +3,11 @@
 (define (square x) (* x x))
 (define (cube x) (* x x x))
 
+(define (abs x)
+  (if (< x 0)
+      (- x)
+      x))
+
 (define (cube-root-iter guess old-guess x)
   (if (good-enough? guess old-guess)
       guess
