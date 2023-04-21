@@ -1,6 +1,6 @@
 #!/usr/local/bin/guile -s!#
 
-(define (p) (p))        ; (define (p) (p)) is a procedure that evaluates to itself.
+(define (p) (p))        ; procedure that evaluates to itself.
 
 (define (test x y)
   (if (= x 0)
