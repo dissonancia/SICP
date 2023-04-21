@@ -1,3 +1,5 @@
+#!/usr/local/bin/guile -s!#
+
 (define (square x)
   (* x x))
 
