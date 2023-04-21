@@ -1,6 +1,7 @@
 #!/usr/local/bin/guile -s!#
 
 (define (square x) (* x x))
+(define (cube x) (* x x x))
 
 (define (cube-root-iter guess old-guess x)
   (if (good-enough? guess old-guess)
