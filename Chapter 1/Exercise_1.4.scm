@@ -1,3 +1,5 @@
+#!/usr/local/bin/guile -s!#
+
 (define (a-plus-abs-b a b)
   ((if (> b 0)
        +
