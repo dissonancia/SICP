@@ -13,6 +13,8 @@
 ;; as a direct translation of the mathematical
 ;; function.
 
+;; f by means of an iterative process
+
 (define (f-iter n)
   (define (f-loop n-1 n-2 n-3 nth)
     (if (= n nth)
