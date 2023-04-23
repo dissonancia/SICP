@@ -6,7 +6,7 @@
 (define (+rec a b)
   (if (= a 0)
       b
-      (inc (+ (dec a) b))))
+      (inc (+rec (dec a) b))))
 
 ;; (+rec 4 5)
 ;; (inc (+rec 3 5))
@@ -22,7 +22,7 @@
 (define (+iter a b)
   (if (= a 0)
       b
-      (+ (dec a) (inc b))))
+      (+iter (dec a) (inc b))))
 
 ;; (+iter 4 5)
 ;; (+iter 3 6)
