@@ -8,6 +8,7 @@
       (- x)
       x))
 
+#!
 (define (cube-root-iter guess old-guess x)
   (if (good-enough? guess old-guess)
       guess
@@ -21,3 +22,17 @@
 
 (define (cube-root x)
   (cube-root-iter 1.0 0.0 x))
+!#
+
+;; Block Structure
+
+(define (cube-root x)
+  (define (good-enough? guess old-guess)
+    (< (abs (- guess old-guess)) 0.00000000001))
+  (define (improve guess)
+    (/ (+ (/ x (square guess)) (* 2 guess)) 3))
+  (define (cube-root-iter guess old-guess)
+    (if (good-enough? guess old-guess)
+	guess
+        (cube-root-iter (improve guess) guess)))
+  (cube-root-iter 1.0 0.0))
