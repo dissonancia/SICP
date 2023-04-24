@@ -22,7 +22,7 @@ $$= \frac{\frac{3+\sqrt{5}}{2} - \frac{3-\sqrt{5}}{2}}{\sqrt{5}} = \frac{\frac{2
 $P(1)$ and $P(2)$ are true.
 
 
-Let $k \ge 3$ and supose $P(m)$ is true for all natural $m$, $1 \le m \le k$. We need to prove that $P(k+1)$ is true, i.e, $fib(k+1) = \frac{\phi^{k+1} - \psi^{k+1}}{\sqrt{5}}$
+Let $k \ge 2$ and supose $P(m)$ is true for all natural $m$, $1 \le m \le k$. We need to prove that $P(k+1)$ is true, i.e, $fib(k+1) = \frac{\phi^{k+1} - \psi^{k+1}}{\sqrt{5}}$
 
 
 As $fib(k+1) = fib(k-1) + fib(k)$ and, by the induction hypothesis, $fib(k-1) = \frac{\phi^{k-1} - \psi^{k-1}}{\sqrt{5}}$ and $fib(k) = \frac{\phi^k - \psi^k}{\sqrt{5}}$, then:
