@@ -2,7 +2,7 @@ Let $P(n)$ be the affirmative: $$fib(n) = \frac{\phi^n - \psi^n}{\sqrt{5}}$$
 
 Where $\phi = \frac{1+\sqrt{5}}{2}$ and $\psi = \frac{1-\sqrt{5}}{2}$
 
-$* P(1) =$
+* $P(1) =$
 
 $$fib(1) = \frac{\phi^1 - \psi^1}{\sqrt{5}}$$
 
@@ -10,7 +10,7 @@ $$1 = \frac{\frac{1+\sqrt{5}}{2} - \frac{1-\sqrt{5}}{2}}{\sqrt{5}}$$
 
 $$= \frac{\frac{2\sqrt{5}}{2}}{\sqrt{5}} = \frac{\sqrt{5}}{\sqrt{5}} = 1$$
 
-$* P(2) =$$
+* $P(2) =$
 
 $$fib(2) = \frac{\phi^2 - \psi^2}{\sqrt{5}}$$
 
