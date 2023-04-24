@@ -35,7 +35,7 @@ $$= \frac{1}{\sqrt{5}}(\phi^{k-1} - \psi^{k-1} + \phi^k - \psi^k)$$
 
 $$= \frac{1}{\sqrt{5}}(\phi^{k-1} (\phi + 1) - \psi^{k-1} (\psi + 1))$$
 
-$$\text{As } \phi + 1 = \frac{3+\sqrt{5}}{2} = \phi^ and \psi + 1 = \frac{3-\sqrt{5}}{2} = \psi^2 \text{, then:}$$
+As $\phi + 1 = \frac{3+\sqrt{5}}{2} = \phi^$ and $\psi + 1 = \frac{3-\sqrt{5}}{2} = \psi^2$, then:
 
 $$fib(k+1) = \frac{1}{\sqrt{5}}(\phi^{k-1}\phi^2 - \psi^{k-1}\psi^2)$$
 
