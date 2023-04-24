@@ -34,4 +34,4 @@ $$fib(k+1) = \frac{\phi^{k+1} - \psi^{k+1}}{\sqrt{5}}$$
 
 As demonstrated, $P(n)$ is true for all natural n.
 
-INCOMPLETE
+EXERCISE INCOMPLETE
