@@ -8,11 +8,7 @@ $$fib(1) = \frac{\phi^1 - \psi^1}{\sqrt{5}}$$
 
 $$1 = \frac{\frac{1+\sqrt{5}}{2} - \frac{1-\sqrt{5}}{2}}{\sqrt{5}}$$
 
-$$= \frac{\frac{2\sqrt{5}}{2}}{\sqrt{5}}$$
-
-$$= \frac{\sqrt{5}}{\sqrt{5}}$$
-
-$$= 1$$
+$$= \frac{\frac{2\sqrt{5}}{2}}{\sqrt{5}} = \frac{\sqrt{5}}{\sqrt{5}} = 1$$
 
 $$P(2): fib(2) = \frac{\phi^2 - \psi^2}{\sqrt{5}}$$
 
