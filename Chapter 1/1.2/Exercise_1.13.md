@@ -4,13 +4,11 @@ Where $\phi = \frac{1+\sqrt{5}}{2}$ and $\psi = \frac{1-\sqrt{5}}{2}$
 
 * $P(1) =$
 
-\begin{align*}
-\mathrm{fib}(1) &= \frac{\phi^1 - \psi^1}{\sqrt{5}} \
-&= \frac{\frac{1+\sqrt{5}}{2} - \frac{1-\sqrt{5}}{2}}{\sqrt{5}} \
-&= \frac{\frac{2\sqrt{5}}{2}}{\sqrt{5}} \
-&= \frac{\sqrt{5}}{\sqrt{5}} \
-&= 1
-\end{align*}
+$$fib(1) = \frac{\phi^1 - \psi^1}{\sqrt{5}}$$
+
+$$1 = \frac{\frac{1+\sqrt{5}}{2} - \frac{1-\sqrt{5}}{2}}{\sqrt{5}}$$
+
+$$= \frac{\frac{2\sqrt{5}}{2}}{\sqrt{5}} = \frac{\sqrt{5}}{\sqrt{5}} = 1$$
 
 * $P(2) =$
 
